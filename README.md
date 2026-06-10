@@ -8,9 +8,9 @@ This repo shows an OAuth2 PKCE client implementation that loads aircraft from gl
     1. Run `php artisan passport:client --public` to setup a new client
     2. For "What should we name the client?", name it something distinctive
     3. For "Where should we redirect the request after authorization?", put the URL of your client e.g. http://localhost:5173/callback or http://192.168.101.2:5173/callback (running in my VM).
-    4. For "Would you like to enable the device authorization flow for this client?", select "yes".
+    4. For "Would you like to enable the device authorization flow for this client?", leave it as "no".
     5. Store the generated client ID and client secret in `config.ts` in this project
-    6. Ensure the origin for your test web app is added to `./config/cors.php`
+    6. Ensure the origin for your test web app is added to `./config/cors.php` in the gliding.net.nz project
 3. In this project, update the contents of `./src/config.ts`
     1. Set `remoteBaseUrl` to the URL of your local gliding.net.nz
     2. Set `clientId` to the one generated above
