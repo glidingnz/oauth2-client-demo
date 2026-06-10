@@ -1,7 +1,6 @@
 {
   "name": "oauth2-client",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,19 +9,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "bootstrap": "^5.3.8",
-    "date-fns": "^4.1.0",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "react-oauth2-code-pkce": "^1.23.4"
+    "bootstrap": "5",
+    "date-fns": "4",
+    "react": "19",
+    "react-dom": "19",
+    "react-oauth2-code-pkce": "1"
   },
   "devDependencies": {
-    "@types/react": "^19.2.5",
-    "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^5.1.1",
-    "globals": "^16.5.0",
-    "typescript": "~5.9.3",
-    "typescript-eslint": "^8.46.4",
-    "vite": "^7.2.4"
+    "@types/react": "19",
+    "@types/react-dom": "19",
+    "@vitejs/plugin-react": "5",
+    "globals": "16",
+    "typescript": "5",
+    "typescript-eslint": "8",
+    "vite": "7"
   }
 }
