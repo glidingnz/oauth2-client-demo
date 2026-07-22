@@ -41,3 +41,8 @@ Q. When I load the client app, I see `No user data available`. When I look at th
 
 A. If you are using Google Chrome, you can go to `chrome://flags/#unsafely-treat-insecure-origin-as-secure`, enter the URL of the client, and click `Relaunch` to relaunch your browser.
 
+---
+
+Q. Can I validate this against production?
+
+A. Yes! In `config.ts` set the client ID `019f8910-6d52-71c5-95e4-945fa1139039` and `remoteBaseUrl` as `https://gliding.net.nz`.
